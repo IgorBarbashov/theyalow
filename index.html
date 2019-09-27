@@ -4,15 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Theyalow</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header"></header>
-      <main class="main"></main>
-      <footer class="footer"></footer>
+    <div class="container-outer">
+      <header class="header">
+        <div class="container-inner">
+          <div class="header-all">
+            <div class="header-logo">
+              <div class="header-logo-img"></div>
+              <h1 class="header-logo-text">theyalow</h1>
+            </div>
+            <nav>
+              <ul class="header-menu">
+                <li class="header-menu-item">
+                  <a class="header-menu-link aboutus" href="#aboutus">about us</a>
+                </li>
+                <li class="header-menu-item separator">
+                  <a class="header-menu-link services" href="#services">services</a>
+                </li>
+                <li class="header-menu-item separator">
+                  <a class="header-menu-link contact" href="#contact">contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <section class="slider">
+        <div class="slider-arrow left"><img src="./assets/left.svg" alt="" /></div>
+        <div class="container-inner slider-wrapper">
+          <div class="slider-video">
+            <video poster="./assets/video-placeholder-up.png" controls>
+              <source src="https://www.youtube.com/watch?v=5UXlSTe7MNI" />
+            </video>
+          </div>
+          <div class="slider-text">
+            <div>
+              <p class="slider-text-tittle">the cool</p>
+              <p class="slider-text-tittle white">the minimal</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-arrow right"><img src="./assets/right.svg" alt="" /></div>
+      </section>
+      <section class="white-block">
+        <div class="container-inner">
+          <div class="white-block-wrapper">
+            <div class="white-block-item">
+              <div class="white-block-img">
+                <a href=""><img src="./assets/cloud.svg" alt=""/></a>
+              </div>
+              <h4>Better design</h4>
+            </div>
+            <div class="white-block-item">
+              <div class="white-block-img">
+                <a href=""><img src="./assets/leaf.svg" alt=""/></a>
+              </div>
+              <h4>Customise</h4>
+            </div>
+            <div class="white-block-item">
+              <div class="white-block-img">
+                <a href=""><img src="./assets/te.svg" alt=""/></a>
+              </div>
+              <h4>Its Free</h4>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
