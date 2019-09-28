@@ -172,12 +172,161 @@
   border-right: 1px solid #d0d0d0;
 }
 
-.white-block-img img {
-  /* padding: 60px 15px 0 15px; */
-}
-
 .white-block-item h4 {
   text-align: center;
   font-family: sans-serif;
   font-size: 18pt;
+}
+
+.yellow-block {
+  background-image: url(../assets/background-yellow.png);
+  background-size: contain;
+}
+
+.yellow-block-wrapper {
+  padding-bottom: 22px;
+}
+
+.yellow-block-title {
+  padding-top: 60px;
+}
+
+.yellow-block-title-text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24pt;
+  font-family: sans-serif;
+  padding-bottom: 40px;
+}
+
+.yellow-block-widget {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.yellow-block-widget-anons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.yellow-block-widget-anons-text {
+  position: relative;
+  box-sizing: border-box;
+  width: 320px;
+  background-color: #ec9e03;
+  color: #f8daa0;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 17pt;
+  padding: 20px 30px;
+  line-height: 30px;
+}
+
+.yellow-block-widget-anons-plus {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-image: url(../assets/plus.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 5px;
+  bottom: 5px;
+}
+
+.yellow-block-widget-anons-player {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.yellow-block-widget-anons-player video {
+  width: 316px;
+  height: 235px;
+  padding: 0;
+  margin: 0;
+}
+
+.yellow-block-widget-twit {
+  width: 320px;
+  height: 235px;
+  background-color: #ec9e03;
+  position: relative;
+}
+
+.yellow-block-widget-twit-date {
+  float: right;
+  padding: 10px;
+}
+
+.yellow-block-widget-twit-posts {
+  color: #f8daa0;
+  font-family: sans-serif;
+  font-size: 15pt;
+}
+
+.yellow-block-widget-twit-logo {
+  width: 160px;
+  height: 135px;
+  background-image: url(../assets/twitter.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 150px;
+  position: absolute;
+  left: 90px;
+  top: 45px;
+}
+
+.yellow-block-widget-twit-plus {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-image: url(../assets/plus.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 5px;
+  bottom: 5px;
+}
+
+.yellow-block-calendar {
+  width: 113px;
+  height: 80px;
+  background-color: #ddb101;
+}
+
+.yellow-block-calendar-date {
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 35pt;
+  padding-top: 10px;
+}
+
+.yellow-block-calendar-month {
+  color: #bd7b20;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+.yellow-block-scroll {
+  margin: 42px auto 0;
+  width: 896px;
+  height: 15px;
+  border-radius: 7px;
+  background-color: #ffffff;
+  opacity: 0.48;
+}
+
+.yellow-block-scroll-inner {
+  position: relative;
+  left: 247px;
+  width: 197px;
+  height: 15px;
+  border-radius: 7px;
+  background-color: #ec9e03;
 }
