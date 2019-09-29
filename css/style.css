@@ -45,15 +45,15 @@
   max-width: 1300px;
   min-width: 640px;
   margin: 0 auto;
+  overflow: hidden;
   background-image: url(../assets/desktop/background-header.png);
   background-repeat: no-repeat;
   background-size: contain;
-  overflow: hidden;
 }
 
 .header {
-  padding-top: 30px;
   box-sizing: border-box;
+  padding-top: 30px;
 }
 
 .container-inner {
@@ -87,12 +87,12 @@
 
 .header-logo-text {
   padding: 12px 0 0 3px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 40px;
+  font-style: italic;
   letter-spacing: 1.1px;
   color: #fff;
   text-transform: uppercase;
-  font-style: italic;
-  font-family: "Lucida Sans Unicode", sans-serif;
-  font-size: 40px;
 }
 
 nav {
@@ -104,22 +104,22 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #f5c506;
   width: 453px;
   height: 40px;
+  background-color: #f5c506;
   box-shadow: -5px -5px 0 rgba(245, 197, 6, 0.5), -10px -10px 0 rgba(245, 197, 6, 0.25);
 }
 
 .header-menu-link {
-  text-decoration: none;
-  padding-left: 35px;
-  text-transform: uppercase;
-  line-height: 40px;
   height: 40px;
+  padding-left: 35px;
+  font-family: "Segoe WP Semibold", sans-serif;
+  line-height: 40px;
+  text-transform: uppercase;
   font-size: 17px;
   letter-spacing: 0.1px;
   color: #9b7d08;
-  font-family: "Segoe WP Semibold", sans-serif;
+  text-decoration: none;
   transition: color 1s;
 }
 
@@ -214,12 +214,12 @@ nav {
   position: relative;
   left: -26px;
   margin-top: -11px;
+  font-family: "Asap", sans-serif;
   color: #f5c506;
   text-transform: uppercase;
   font-size: 63px;
   letter-spacing: 1px;
   line-height: 1.39;
-  font-family: "Asap", sans-serif;
   font-weight: 400;
   text-align: center;
 }
@@ -233,13 +233,13 @@ nav {
 
 .slider-arrow {
   position: relative;
-  margin-top: -4px;
-  width: 32px;
-  height: 57px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 32px;
+  height: 57px;
+  margin-top: -4px;
   background-color: #f5c506;
 }
 
@@ -265,9 +265,9 @@ nav {
 }
 
 .white-block {
+  margin-top: 8px;
   background-image: url(../assets/desktop/background-white.svg);
   background-size: contain;
-  margin-top: 8px;
 }
 
 .white-block-wrapper {
@@ -346,12 +346,12 @@ nav {
 }
 
 .yellow-block-title-text {
+  padding-bottom: 40px;
+  font-family: "PT Sans", sans-serif;
   color: #fff;
-  text-transform: uppercase;
   font-size: 27pt;
   letter-spacing: 1px;
-  font-family: "PT Sans", sans-serif;
-  padding-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .yellow-block-widget {
@@ -376,15 +376,15 @@ nav {
   box-sizing: border-box;
   width: 340px;
   height: 233px;
-  background-color: #ec9e03;
-  color: #ffffff;
+  padding: 20px 30px;
   font-family: "SegoeUILight", sans-serif;
+  color: #ffffff;
   text-align: left;
   font-size: 29px;
-  padding: 20px 30px;
   line-height: 38px;
   letter-spacing: 0.4px;
   word-wrap: break-word;
+  background-color: #ec9e03;
 }
 
 .yellow-block-widget-anons-text > div {
@@ -394,13 +394,13 @@ nav {
 
 .yellow-block-widget-anons-plus {
   position: absolute;
+  right: -17px;
+  bottom: -14px;
   width: 12px;
   height: 12px;
   background-image: url(../assets/desktop/plus.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  right: -17px;
-  bottom: -14px;
   transition: transform 1s;
 }
 
@@ -414,15 +414,15 @@ nav {
   left: 1px;
   width: 315px;
   height: 236px;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .yellow-block-widget-twit {
+  position: relative;
   width: 330px;
   height: 233px;
   background-color: #ec9e03;
-  position: relative;
 }
 
 .yellow-block-widget-twit-posts {
@@ -438,25 +438,25 @@ nav {
 }
 
 .yellow-block-widget-twit-logo {
+  position: absolute;
+  left: 76px;
+  top: 57px;
   width: 171px;
   height: 134px;
   background-image: url(../assets/desktop/twitter.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  left: 76px;
-  top: 57px;
 }
 
 .yellow-block-widget-twit-plus {
   position: absolute;
+  right: 10px;
+  bottom: 13px;
   width: 12px;
   height: 12px;
   background-image: url(../assets/desktop/plus.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  right: 10px;
-  bottom: 13px;
   transition: transform 1s;
 }
 
@@ -470,20 +470,20 @@ nav {
   left: -1px;
   width: 113px;
   height: 86px;
-  background-color: #ddb101;
   font-family: "Segoe WP Semibold", sans-serif;
+  background-color: #ddb101;
 }
 
 .yellow-block-calendar-date {
   position: relative;
   top: -4px;
   left: 4px;
+  padding-top: 10px;
   letter-spacing: 1.5px;
   color: #fff;
   text-align: center;
   font-weight: bold;
   font-size: 38pt;
-  padding-top: 10px;
 }
 
 .yellow-block-calendar-month {
@@ -496,11 +496,11 @@ nav {
 }
 
 .yellow-block-scroll {
-  margin: 33px 0 0 73px;
   width: 896px;
   height: 15px;
-  border-radius: 7px;
+  margin: 33px 0 0 73px;
   background-color: rgb(255, 255, 255, 0.48);
+  border-radius: 7px;
 }
 
 .yellow-block-scroll-inner {
@@ -508,8 +508,8 @@ nav {
   left: 247px;
   width: 197px;
   height: 15px;
-  border-radius: 7px;
   background-color: #ec9e03;
+  border-radius: 7px;
 }
 
 .grey-block {
@@ -526,12 +526,12 @@ nav {
 .grey-block-title h2 {
   padding-top: 15px;
   padding-left: 5px;
-  letter-spacing: 1.35px;
+  font-family: "PT Sans", sans-serif;
   color: #f5c506;
+  font-size: 31pt;
+  letter-spacing: 1.35px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
-  font-size: 31pt;
 }
 
 .grey-block-content {
@@ -543,11 +543,11 @@ nav {
 }
 
 .grey-block-pics {
-  width: 53%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 53%;
 }
 
 .grey-block-desktop {
@@ -567,17 +567,17 @@ nav {
   left: -3px;
   width: 117px;
   height: 117px;
+  padding-left: -2px;
   background-color: #f5c506;
   border-radius: 180px;
-  padding-left: -2px;
 }
 
 .grey-block-offer-text {
+  font-family: sans-serif;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   line-height: 120px;
-  font-family: sans-serif;
   font-size: 11pt;
   font-weight: bold;
 }
@@ -597,7 +597,6 @@ nav {
   position: relative;
   top: 6px;
   left: 18px;
-
   width: 39px;
   height: 293px;
   background-image: url(../assets/desktop/smartphone.svg);
@@ -619,11 +618,11 @@ nav {
 }
 
 .grey-block-benefits-item {
-  color: #a9a9a7;
-  font-size: 22px;
-  font-family: "Open Sans", sans-serif;
   padding-top: 29px;
   padding-left: 29px;
+  font-family: "Open Sans", sans-serif;
+  color: #a9a9a7;
+  font-size: 22px;
   line-height: 1.2;
 }
 
@@ -652,14 +651,14 @@ nav {
 }
 
 .grey-block-benefits-item:before {
-  display: inline-block;
   content: "";
+  display: inline-block;
   width: 14px;
   height: 14px;
-  border-radius: 50%;
-  background-color: #f5c506;
   margin-left: -34px;
   margin-right: 15px;
+  border-radius: 50%;
+  background-color: #f5c506;
 }
 
 .grey-block-benefits-item:nth-child(1):before {
@@ -683,11 +682,11 @@ footer {
 }
 
 .footer-wrapper {
-  padding: 5px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 5px 0;
 }
 
 .footer-logo {
@@ -701,10 +700,10 @@ footer {
   position: relative;
   top: 2px;
   left: 2px;
-  background-image: url(../assets/desktop/logo-down-layer.svg),
-    url(../assets/desktop/logo-up-layer.svg);
   height: 50px;
   width: 50px;
+  background-image: url(../assets/desktop/logo-down-layer.svg),
+    url(../assets/desktop/logo-up-layer.svg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -713,11 +712,11 @@ footer {
   position: relative;
   top: 2px;
   left: 10px;
-  text-transform: uppercase;
+  font-family: "Lucida Sans Unicode";
+  color: #ffffff;
   font-size: 29px;
   letter-spacing: 0.2px;
-  color: #ffffff;
-  font-family: "Lucida Sans Unicode";
+  text-transform: uppercase;
   font-style: italic;
   text-align: center;
 }
