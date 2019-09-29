@@ -211,6 +211,7 @@ nav {
   width: 548px;
   height: 327px;
   padding: 5px 10px 0;
+  outline: none;
 }
 
 .slider-text {
@@ -735,4 +736,458 @@ footer {
 
 .footer-text p {
   text-shadow: 2px 2.732px 0px rgba(0, 0, 0, 0.42);
+}
+
+@media (max-width: 640px) {
+  .container-outer {
+    max-width: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: none;
+  }
+
+  .container-inner {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding-top: 0;
+  }
+
+  .header-all {
+    margin-top: 0;
+  }
+
+  .header-logo {
+    width: 186px;
+    height: 62px;
+    padding: 0 18px 0 11px;
+    background-image: url(../assets/mobile/logo-background.svg);
+    background-size: 190px 64px;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+  }
+
+  .header-logo-img {
+    position: relative;
+    top: -1px;
+    left: 0px;
+    height: 41px;
+    width: 41px;
+    background-image: url(../assets/mobile/logo-up-layer.svg),
+      url(../assets/mobile/logo-down-layer.svg);
+  }
+
+  .header-logo-text {
+    position: relative;
+    left: 3px;
+    top: -4px;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.42);
+  }
+
+  nav {
+    top: 0;
+  }
+
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 455px;
+    height: 62px;
+    background-image: linear-gradient(0deg, #e9bb04 0%, #f5c710 100%);
+    box-shadow: none;
+  }
+
+  .header-menu-item {
+    display: flex;
+    align-items: center;
+    height: 62px;
+  }
+
+  .header-menu-item:first-child {
+    width: 173px;
+  }
+
+  .header-menu-item:nth-child(2) {
+    width: 133px;
+  }
+
+  .header-menu-item:nth-child(3) {
+    width: 149px;
+  }
+
+  .header-menu-item-icon.aboutus {
+    background-size: 28px;
+    background-position: 21px calc(50% - 0px);
+  }
+
+  .header-menu-item-icon.services {
+    background-size: 25px;
+    background-position: 7px calc(50% + 0px);
+  }
+
+  .header-menu-item-icon.contact {
+    background-size: 31px;
+    background-position: 10px calc(50% - 1px);
+  }
+
+  .header-menu-link.aboutus {
+    position: relative;
+    left: 24px;
+    font-size: 17px;
+    letter-spacing: 1.1px;
+  }
+
+  .header-menu-link.services {
+    position: relative;
+    left: 3px;
+    font-size: 17px;
+    letter-spacing: 1.1px;
+  }
+
+  .header-menu-link.contact {
+    position: relative;
+    left: 14px;
+    font-size: 19px;
+    letter-spacing: 0.4px;
+  }
+
+  .slider {
+    padding: 0;
+  }
+
+  .slider-arrow,
+  .slider-text,
+  .slider-video-desktop {
+    display: none;
+  }
+
+  .slider-video-mobile {
+    display: block;
+  }
+
+  .slider-video video {
+    width: 640px;
+    height: 318px;
+    padding: 0;
+    object-fit: fill;
+  }
+
+  .white-block {
+    position: relative;
+    margin-top: 0px;
+    background-image: url(../assets/mobile/background-white.png);
+    background-size: contain;
+  }
+
+  .white-block-wrapper {
+    border-left: none;
+    box-shadow: none;
+  }
+
+  .white-block-item {
+    height: 174px;
+    border-right: none;
+  }
+
+  .white-block-item h4 {
+    font-size: 17pt;
+  }
+
+  .white-block-item.cloud h4 {
+    position: relative;
+    top: 11px;
+    left: -11px;
+    letter-spacing: 0.6px;
+  }
+  .white-block-item.leaf h4 {
+    position: relative;
+    top: 7px;
+    left: 10px;
+    letter-spacing: 0.6px;
+  }
+  .white-block-item.te h4 {
+    position: relative;
+    top: 8px;
+    left: 3px;
+    letter-spacing: 0.6px;
+  }
+
+  .white-block-img-cloud img {
+    position: relative;
+    top: -6px;
+    left: -18px;
+    width: 92px;
+    height: 64px;
+  }
+
+  .white-block-img-leaf img {
+    position: relative;
+    top: 15px;
+    left: -2px;
+    width: 74px;
+    height: 72px;
+  }
+
+  .white-block-img-te img {
+    position: relative;
+    top: 4px;
+    left: 6px;
+    width: 71px;
+    height: 71px;
+  }
+
+  .yellow-block-wrapper {
+    padding-bottom: 0;
+  }
+
+  .yellow-block {
+    background-image: none;
+  }
+
+  .yellow-block-title {
+    display: none;
+  }
+
+  .yellow-block-widget {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+  }
+
+  .yellow-block-widget-anons-text,
+  .yellow-block-widget-anons-player {
+    margin: 13px 9px 9px;
+  }
+
+  .yellow-block-widget-anons-text {
+    width: 50%;
+    height: 232px;
+    margin-right: 0;
+    padding: 20px 30px;
+  }
+
+  .yellow-block-widget-anons-text p {
+    position: relative;
+    left: -3px;
+    font-size: 29px;
+    line-height: 33px;
+    letter-spacing: 0.3px;
+  }
+
+  .yellow-block-widget-anons-player {
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 232px;
+  }
+
+  .yellow-block-widget-anons-plus {
+    right: -20px;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+  }
+
+  .yellow-block-widget-twit-posts,
+  .yellow-block-widget-twit-plus,
+  .yellow-block-calendar,
+  .yellow-block-scroll {
+    display: none;
+  }
+
+  .yellow-block-widget-twit {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 233px;
+    background-color: #f5c506;
+  }
+
+  .yellow-block-widget-twit-logo {
+    position: relative;
+    left: 79px;
+    top: 57px;
+    width: 50%;
+    background-size: 165px 159px;
+  }
+
+  .yellow-block-widget-twit-twits {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 50%;
+    padding-right: 32px;
+  }
+
+  .twits-lenta {
+    position: relative;
+    top: 11px;
+    left: -3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 155px;
+  }
+
+  .twits-rectangle {
+    box-sizing: border-box;
+    position: relative;
+    left: 3px;
+    width: 275px;
+    height: 43px;
+    padding-top: 9px;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    color: #8f8e8e;
+    line-height: 1.1;
+    letter-spacing: 0.2px;
+  }
+
+  .twits-rectangle:before {
+    content: url("../assets/mobile/rectangle.svg");
+    position: absolute;
+    left: -10px;
+    top: 0;
+    opacity: 1;
+  }
+
+  .twits-rectangle:nth-child(2) {
+    opacity: 0.7;
+  }
+
+  .twits-rectangle:nth-child(3) {
+    opacity: 0.6;
+  }
+
+  .twits-rectangle-text {
+    position: relative;
+    z-index: 2;
+    margin-left: 18px;
+  }
+
+  .twits-rectangle-author {
+    position: relative;
+    z-index: 2;
+    margin-left: 18px;
+  }
+
+  .twits-new form {
+    display: flex;
+    justify-content: flex-end;
+    width: 271px;
+    height: 30px;
+  }
+
+  .twits-new input {
+    width: 200px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #d0a706;
+    border-right: 0;
+    outline: none;
+  }
+
+  .twits-new button {
+    width: 71px;
+    background-color: #e8a624;
+    border: 1px solid #d0a706;
+    border-left: 0;
+    border-radius: 0 10px 10px 0;
+    color: #ffffff;
+    outline: none;
+  }
+
+  .grey-block {
+    background-image: none;
+    background-color: #474747;
+  }
+
+  .grey-block-title {
+    position: relative;
+    left: -6px;
+    top: -3px;
+    margin: auto;
+    padding-top: 26px;
+    padding-bottom: 14px;
+  }
+
+  .grey-block-title h2 {
+    font-size: 29pt;
+    letter-spacing: 2.35px;
+  }
+
+  .grey-block-benefits {
+    display: none;
+  }
+
+  .grey-block-pics {
+    position: relative;
+    top: 22px;
+    left: 29px;
+    width: 100%;
+  }
+
+  .grey-block-desktop {
+    position: relative;
+    top: 3px;
+    left: 11px;
+  }
+
+  .grey-block-offer {
+    position: relative;
+    top: -3px;
+    left: -13px;
+    width: 116px;
+    height: 116px;
+  }
+
+  .grey-block-tablet {
+    position: relative;
+    top: 5px;
+    left: -31px;
+  }
+
+  .grey-block-smartphone {
+    position: relative;
+    top: 7px;
+    left: -72px;
+  }
+
+  .grey-block-content {
+    padding-bottom: 81px;
+  }
+
+  .footer-wrapper {
+    padding-left: 64px;
+  }
+
+  .footer-img {
+    position: static;
+    height: 32px;
+    width: 32px;
+    background-image: url(../assets/desktop/logo-down-layer.svg),
+      url(../assets/desktop/logo-up-layer.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .footer-text {
+    position: static;
+    padding: 1px 0 0 8px;
+    font-size: 17px;
+  }
 }
