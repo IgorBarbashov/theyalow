@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Lucida Sans Unicode";
-  src: url("../assets/lucida-sans-unicode_[allfont.ru].ttf") format("opentype");
+  src: url("../assets/fonts/lucida-sans-unicode_[allfont.ru].ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "SegoeUILight";
-  src: url("../assets/SegoeUILight.woff") format("woff");
+  src: url("../assets/fonts/SegoeUILight.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Segoe WP Semibold";
-  src: url("../assets/SegoeWPSemibold.ttf") format("opentype");
+  src: url("../assets/fonts/SegoeWPSemibold.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,14 +32,14 @@
 
 @font-face {
   font-family: "PT Sans";
-  src: url("../assets/2221.ttf") format("opentype");
+  src: url("../assets/fonts/2221.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("../assets/OpenSans-Regular.ttf") format("opentype");
+  src: url("../assets/fonts/OpenSans-Regular.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -48,7 +48,7 @@
   max-width: 1300px;
   min-width: 640px;
   margin: 0 auto;
-  background-image: url(../assets/background-header.png);
+  background-image: url(../assets/desktop/background-header.png);
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
@@ -82,7 +82,8 @@
 .header-logo-img {
   height: 83px;
   width: 83px;
-  background-image: url(../assets/logo-up-layer.svg), url(../assets/logo-down-layer.svg);
+  background-image: url(../assets/desktop/logo-up-layer.svg),
+    url(../assets/desktop/logo-down-layer.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -137,19 +138,19 @@ nav {
 }
 
 .header-menu-item-icon.aboutus {
-  background-image: url(../assets/menu-about.svg);
+  background-image: url(../assets/desktop/menu-about.svg);
   background-repeat: no-repeat;
   background-position: 37px calc(50% - 1px);
 }
 
 .header-menu-item-icon.services {
-  background-image: url(../assets/menu-settings.svg);
+  background-image: url(../assets/desktop/menu-settings.svg);
   background-repeat: no-repeat;
   background-position: 13px calc(50% - 1px);
 }
 
 .header-menu-item-icon.contact {
-  background-image: url(../assets/menu-email.svg);
+  background-image: url(../assets/desktop/menu-email.svg);
   background-repeat: no-repeat;
   background-position: 16px calc(50% - 2px);
 }
@@ -244,7 +245,7 @@ nav {
 }
 
 .white-block {
-  background-image: url(../assets/background-white.svg);
+  background-image: url(../assets/desktop/background-white.svg);
   background-size: contain;
   margin-top: 8px;
 }
@@ -312,7 +313,7 @@ nav {
 }
 
 .yellow-block {
-  background-image: url(../assets/background-yellow.png);
+  background-image: url(../assets/desktop/background-yellow.png);
   background-size: contain;
 }
 
@@ -375,7 +376,7 @@ nav {
   position: absolute;
   width: 12px;
   height: 12px;
-  background-image: url(../assets/plus.svg);
+  background-image: url(../assets/desktop/plus.svg);
   background-repeat: no-repeat;
   background-size: contain;
   right: -17px;
@@ -414,7 +415,7 @@ nav {
 .yellow-block-widget-twit-logo {
   width: 171px;
   height: 134px;
-  background-image: url(../assets/twitter.svg);
+  background-image: url(../assets/desktop/twitter.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -426,7 +427,7 @@ nav {
   position: absolute;
   width: 12px;
   height: 12px;
-  background-image: url(../assets/plus.svg);
+  background-image: url(../assets/desktop/plus.svg);
   background-repeat: no-repeat;
   background-size: cover;
   right: 10px;
@@ -482,7 +483,7 @@ nav {
 }
 
 .grey-block {
-  background-image: url(../assets/background-grey.png);
+  background-image: url(../assets/desktop/background-grey.png);
   background-size: cover;
 }
 
@@ -525,7 +526,7 @@ nav {
   left: 1px;
   width: 340px;
   height: 293px;
-  background-image: url(../assets/desktop.svg);
+  background-image: url(../assets/desktop/desktop.svg);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -557,7 +558,7 @@ nav {
   left: 9px;
   width: 129px;
   height: 293px;
-  background-image: url(../assets/tablet.svg);
+  background-image: url(../assets/desktop/tablet.svg);
   background-repeat: no-repeat;
   background-position: 100% 65%;
 }
@@ -569,7 +570,7 @@ nav {
 
   width: 39px;
   height: 293px;
-  background-image: url(../assets/smartphone.svg);
+  background-image: url(../assets/desktop/smartphone.svg);
   background-repeat: no-repeat;
   background-position: 100% 81%;
 }
@@ -670,7 +671,8 @@ footer {
   position: relative;
   top: 2px;
   left: 2px;
-  background-image: url(../assets/logo-down-layer.svg), url(../assets/logo-up-layer.svg);
+  background-image: url(../assets/desktop/logo-down-layer.svg),
+    url(../assets/desktop/logo-up-layer.svg);
   height: 50px;
   width: 50px;
   background-size: 100%;
