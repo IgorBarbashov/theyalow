@@ -199,6 +199,14 @@ nav {
   align-items: stretch;
 }
 
+.slider-video-desktop {
+  display: block;
+}
+
+.slider-video-mobile {
+  display: none;
+}
+
 .slider-video video {
   width: 548px;
   height: 327px;
@@ -429,6 +437,10 @@ nav {
   position: absolute;
   top: 15px;
   right: 18px;
+}
+
+.yellow-block-widget-twit-twits {
+  display: none;
 }
 
 .yellow-block-widget-twit-posts-text {
