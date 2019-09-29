@@ -24,10 +24,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Asap Regular"), local("Asap-Regular"),
-    url(https://fonts.gstatic.com/s/asap/v11/KFOoCniXp96ayzse4A.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
-    U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("../assets/fonts/Asap-Regular.ttf") format("opentype");
 }
 
 @font-face {
@@ -123,6 +120,7 @@ nav {
   letter-spacing: 0.1px;
   color: #9b7d08;
   font-family: "Segoe WP Semibold", sans-serif;
+  transition: color 1s;
 }
 
 .header-menu-item:first-child {
@@ -133,8 +131,24 @@ nav {
   width: 132px;
 }
 
+.header-menu-item:nth-child(3) {
+  width: 150px;
+}
+
 .header-menu-item.separator {
   border-left: 1px solid #b99403;
+}
+
+.header-menu-item {
+  transition: background-color 1s;
+}
+
+.header-menu-item:hover {
+  background: #9b7d08;
+}
+
+.header-menu-item:hover .header-menu-link {
+  color: #ffffff;
 }
 
 .header-menu-item-icon.aboutus {
@@ -229,6 +243,10 @@ nav {
   background-color: #f5c506;
 }
 
+.slider-arrow:hover img {
+  transform: scale(1.8);
+}
+
 .slider-arrow.left {
   width: 330x;
   background-color: rgba(243, 196, 6, 0.71);
@@ -237,11 +255,13 @@ nav {
 .slider-arrow.left img {
   position: relative;
   left: -1px;
+  transition: transform 0.5s;
 }
 
 .slider-arrow.right img {
   position: relative;
   left: 1px;
+  transition: transform 0.5s;
 }
 
 .white-block {
@@ -381,6 +401,11 @@ nav {
   background-size: contain;
   right: -17px;
   bottom: -14px;
+  transition: transform 1s;
+}
+
+.yellow-block-widget-anons-plus:hover {
+  transform: rotate(90deg) scale(3);
 }
 
 .yellow-block-widget-anons-player video {
@@ -432,6 +457,11 @@ nav {
   background-size: cover;
   right: 10px;
   bottom: 13px;
+  transition: transform 1s;
+}
+
+.yellow-block-widget-twit-plus:hover {
+  transform: rotate(90deg) scale(3);
 }
 
 .yellow-block-calendar {
